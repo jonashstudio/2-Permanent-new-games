@@ -1,0 +1,2241 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBX879D961476D54CC7BA9FA25B7A66CD5E">
+		<Properties>
+			<bool name="AllowThirdPartySales">false</bool>
+			<token name="AnimationWeightedBlendFix">0</token>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<token name="ClientAnimatorThrottling">0</token>
+			<string name="CollisionGroups">Default^0^-1</string>
+			<Ref name="CurrentCamera">RBX23A18C0CFB6E45D4A82634C2F8986F84</Ref>
+			<double name="DistributedGameTime">0</double>
+			<bool name="ExplicitAutoJoints">true</bool>
+			<float name="FallenPartsDestroyHeight">-500</float>
+			<float name="Gravity">196.199997</float>
+			<token name="HumanoidOnlySetCollisionsOnStateChange">0</token>
+			<token name="InterpolationThrottling">0</token>
+			<token name="LevelOfDetail">0</token>
+			<token name="MeshPartHeadsAndAccessories">0</token>
+			<CoordinateFrame name="ModelMeshCFrame">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+			<Vector3 name="ModelMeshSize">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Vector3>
+			<string name="Name">Workspace</string>
+			<bool name="NeedsPivotMigration">false</bool>
+			<token name="PhysicsSteppingMethod">0</token>
+			<Ref name="PrimaryPart">null</Ref>
+			<token name="SignalBehavior">0</token>
+			<int64 name="SourceAssetId">-1</int64>
+			<token name="StreamOutBehavior">0</token>
+			<bool name="StreamingEnabled">false</bool>
+			<int name="StreamingMinRadius">64</int>
+			<token name="StreamingPauseMode">0</token>
+			<int name="StreamingTargetRadius">1024</int>
+			<BinaryString name="Tags"></BinaryString>
+			<bool name="TerrainWeldsFixed">true</bool>
+			<bool name="TouchesUseCollisionGroups">false</bool>
+			<OptionalCoordinateFrame name="WorldPivotData">
+				<CFrame>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CFrame>
+			</OptionalCoordinateFrame>
+		</Properties>
+		<Item class="Camera" referent="RBX23A18C0CFB6E45D4A82634C2F8986F84">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>0.321689844</X>
+					<Y>18.2346153</Y>
+					<Z>23.7645969</Z>
+					<R00>0.98357147</R00>
+					<R01>-0.0819535926</R01>
+					<R02>0.160844535</R02>
+					<R10>-0</R10>
+					<R11>0.891008377</R11>
+					<R12>0.453987002</R12>
+					<R20>-0.180519685</R20>
+					<R21>-0.446528673</R21>
+					<R22>0.876370251</R22>
+				</CoordinateFrame>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<float name="FieldOfView">70</float>
+				<token name="FieldOfViewMode">0</token>
+				<CoordinateFrame name="Focus">
+					<X>0</X>
+					<Y>17.3266392</Y>
+					<Z>22.0118523</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="HeadLocked">true</bool>
+				<float name="HeadScale">1</float>
+				<string name="Name">Camera</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX29B891F533EB4970ABFEE856D9E29C05">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>-10</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CanQuery">true</bool>
+				<bool name="CanTouch">true</bool>
+				<bool name="CastShadow">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Baseplate</string>
+				<CoordinateFrame name="PivotOffset">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">0</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>512</X>
+					<Y>20</Y>
+					<Z>512</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Terrain" referent="RBX48A2B96047874EE383CA99C9054D46D9">
+			<Properties>
+				<token name="AcquisitionMethod">0</token>
+				<bool name="Anchored">true</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CanQuery">true</bool>
+				<bool name="CanTouch">true</bool>
+				<bool name="CastShadow">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<bool name="Decoration">false</bool>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<BinaryString name="MaterialColors"><![CDATA[AAAAAAAAan8/P39rf2Y/ilY+j35fi21PZmxvZbDqw8faiVpHOi4kHh4lZlw76JxKc3trhHta
+gcLgc4RKxr21zq2UlJSM]]></BinaryString>
+				<string name="Name">Terrain</string>
+				<BinaryString name="PhysicsGrid">AgMAAAAAAAAAAAAAAAA=</BinaryString>
+				<CoordinateFrame name="PivotOffset">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="SmoothGrid">AQU=</BinaryString>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Color3 name="WaterColor">
+					<R>0.0470588282</R>
+					<G>0.329411775</G>
+					<B>0.360784322</B>
+				</Color3>
+				<float name="WaterReflectance">1</float>
+				<float name="WaterTransparency">0.300000012</float>
+				<float name="WaterWaveSize">0.150000006</float>
+				<float name="WaterWaveSpeed">10</float>
+				<Vector3 name="size">
+					<X>2044</X>
+					<Y>252</Y>
+					<Z>2044</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="SoundService" referent="RBXA5BD7F41415A48459662A44B1A16E2E7">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<float name="DistanceFactor">3.32999992</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">SoundService</string>
+			<bool name="RespectFilteringEnabled">true</bool>
+			<float name="RolloffScale">1</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="NonReplicatedCSGDictionaryService" referent="RBXE1563FF805F64DD3B13631BDAE1ACA1E">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">NonReplicatedCSGDictionaryService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CSGDictionaryService" referent="RBXBA2DBA5B00854548AAA6A8688B6320D6">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CSGDictionaryService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Chat" referent="RBX180084A29DDB4E3A967874D71D3070FB">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="BubbleChatEnabled">false</bool>
+			<bool name="LoadDefaultChat">true</bool>
+			<string name="Name">Chat</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TimerService" referent="RBXE48E774A4FE34F69A85580B3A5D96FED">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBXF9F883F9396F49B88DE1C7417AC49EE2">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="CharacterAutoLoads">true</bool>
+			<int name="MaxPlayersInternal">12</int>
+			<string name="Name">Players</string>
+			<int name="PreferredPlayersInternal">56832</int>
+			<float name="RespawnTime">5</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedFirst" referent="RBX156A09C08628428797533B8A71D0581F">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ReplicatedFirst</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TweenService" referent="RBX4F90C1BFDD5C4B40947DF4604940D21A">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">TweenService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="PermissionsService" referent="RBX60F4DE5D03AD496D822B71C5894201CE">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">PermissionsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="PlayerEmulatorService" referent="RBX1FBF63FE00B84FAFA1BC3AC9D7C1D9C6">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="DEPRECATED_SerializedEmulatedPolicyInfo"></string>
+			<string name="EmulatedCountryCode"></string>
+			<string name="EmulatedGameLocale"></string>
+			<string name="Name">PlayerEmulatorService</string>
+			<bool name="PlayerEmulationEnabled">false</bool>
+			<BinaryString name="SerializedEmulatedPolicyInfo"></BinaryString>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StudioData" referent="RBXC233F8EB52AB4E51B904FE7466B6EE5D">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<int64 name="CommitInflightAuthorId">0</int64>
+			<string name="CommitInflightGuid"></string>
+			<int name="CommitInflightPlaceVersion">0</int>
+			<bool name="EnableScriptCollabByDefaultOnLoad">false</bool>
+			<string name="Name">StudioData</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<int64 name="SrcPlaceId">6515824076</int64>
+			<int64 name="SrcUniverseId">2440324507</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StarterPlayer" referent="RBX1246B436DF0B4769AE287F5B4EB89961">
+		<Properties>
+			<bool name="AllowCustomAnimations">true</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoJumpEnabled">true</bool>
+			<float name="CameraMaxZoomDistance">128</float>
+			<float name="CameraMinZoomDistance">0.5</float>
+			<token name="CameraMode">0</token>
+			<float name="CharacterJumpHeight">7.19999981</float>
+			<float name="CharacterJumpPower">50</float>
+			<float name="CharacterMaxSlopeAngle">89</float>
+			<bool name="CharacterUseJumpPower">true</bool>
+			<float name="CharacterWalkSpeed">16</float>
+			<token name="DevCameraOcclusionMode">0</token>
+			<token name="DevComputerCameraMovementMode">0</token>
+			<token name="DevComputerMovementMode">0</token>
+			<token name="DevTouchCameraMovementMode">0</token>
+			<token name="DevTouchMovementMode">0</token>
+			<bool name="EnableMouseLockOption">true</bool>
+			<int64 name="GameSettingsAssetIDFace">0</int64>
+			<int64 name="GameSettingsAssetIDHead">0</int64>
+			<int64 name="GameSettingsAssetIDLeftArm">0</int64>
+			<int64 name="GameSettingsAssetIDLeftLeg">0</int64>
+			<int64 name="GameSettingsAssetIDPants">0</int64>
+			<int64 name="GameSettingsAssetIDRightArm">0</int64>
+			<int64 name="GameSettingsAssetIDRightLeg">0</int64>
+			<int64 name="GameSettingsAssetIDShirt">0</int64>
+			<int64 name="GameSettingsAssetIDTeeShirt">0</int64>
+			<int64 name="GameSettingsAssetIDTorso">0</int64>
+			<token name="GameSettingsAvatar">1</token>
+			<token name="GameSettingsR15Collision">0</token>
+			<NumberRange name="GameSettingsScaleRangeBodyType">0 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeHead">0.95 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeHeight">0.9 1.05 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeProportion">0 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeWidth">0.7 1 </NumberRange>
+			<float name="HealthDisplayDistance">100</float>
+			<bool name="LoadCharacterAppearance">true</bool>
+			<token name="LoadCharacterLayeredClothing">0</token>
+			<string name="Name">StarterPlayer</string>
+			<float name="NameDisplayDistance">100</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<bool name="UserEmotesEnabled">true</bool>
+		</Properties>
+		<Item class="StarterPlayerScripts" referent="RBXECA4FCF573674C97B224C0D843D3BA6C">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">StarterPlayerScripts</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="StarterCharacterScripts" referent="RBXD09F2AFD14894FEAB386BCC789730556">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">StarterCharacterScripts</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPack" referent="RBX9968AC37BC7B4E5F812A81306510E22C">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">StarterPack</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StarterGui" referent="RBX1752156AEB764D4699541FB017AA8F09">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">StarterGui</string>
+			<bool name="ResetPlayerGuiOnSpawn">true</bool>
+			<token name="ScreenOrientation">2</token>
+			<bool name="ShowDevelopmentGui">true</bool>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<token name="VirtualCursorMode">0</token>
+		</Properties>
+		<Item class="ScreenGui" referent="RBX74D9820D50DA4B67B3EDEFF4E22778BF">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="AutoLocalize">true</bool>
+				<int name="DisplayOrder">0</int>
+				<bool name="Enabled">true</bool>
+				<bool name="IgnoreGuiInset">true</bool>
+				<string name="Name">ScreenGui</string>
+				<bool name="ResetOnSpawn">true</bool>
+				<Ref name="RootLocalizationTable">null</Ref>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<token name="ZIndexBehavior">1</token>
+			</Properties>
+			<Item class="Frame" referent="RBX18793C12DF8345AB886D19247A1CA90C">
+				<Properties>
+					<bool name="Active">false</bool>
+					<Vector2 name="AnchorPoint">
+						<X>0</X>
+						<Y>0</Y>
+					</Vector2>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<bool name="AutoLocalize">true</bool>
+					<token name="AutomaticSize">0</token>
+					<Color3 name="BackgroundColor3">
+						<R>1</R>
+						<G>1</G>
+						<B>1</B>
+					</Color3>
+					<float name="BackgroundTransparency">0</float>
+					<Color3 name="BorderColor3">
+						<R>0.105882362</R>
+						<G>0.164705887</G>
+						<B>0.207843155</B>
+					</Color3>
+					<token name="BorderMode">0</token>
+					<int name="BorderSizePixel">1</int>
+					<bool name="ClipsDescendants">false</bool>
+					<bool name="Draggable">false</bool>
+					<int name="LayoutOrder">0</int>
+					<string name="Name">Main</string>
+					<Ref name="NextSelectionDown">null</Ref>
+					<Ref name="NextSelectionLeft">null</Ref>
+					<Ref name="NextSelectionRight">null</Ref>
+					<Ref name="NextSelectionUp">null</Ref>
+					<UDim2 name="Position">
+						<XS>0</XS>
+						<XO>0</XO>
+						<YS>0</YS>
+						<YO>0</YO>
+					</UDim2>
+					<Ref name="RootLocalizationTable">null</Ref>
+					<float name="Rotation">0</float>
+					<bool name="Selectable">false</bool>
+					<Ref name="SelectionImageObject">null</Ref>
+					<UDim2 name="Size">
+						<XS>1</XS>
+						<XO>0</XO>
+						<YS>1</YS>
+						<YO>0</YO>
+					</UDim2>
+					<token name="SizeConstraint">0</token>
+					<int64 name="SourceAssetId">-1</int64>
+					<token name="Style">0</token>
+					<BinaryString name="Tags"></BinaryString>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+				</Properties>
+				<Item class="Frame" referent="RBX6F4E282FEB3242A3AE1920DE7F8F2612">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0.5</X>
+							<Y>0.5</Y>
+						</Vector2>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="AutoLocalize">true</bool>
+						<token name="AutomaticSize">0</token>
+						<Color3 name="BackgroundColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="BorderMode">0</token>
+						<int name="BorderSizePixel">0</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<int name="LayoutOrder">0</int>
+						<string name="Name">Board</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0.5</XS>
+							<XO>0</XO>
+							<YS>0.5</YS>
+							<YO>0</YO>
+						</UDim2>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>100</XO>
+							<YS>1</YS>
+							<YO>0</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<int64 name="SourceAssetId">-1</int64>
+						<token name="Style">0</token>
+						<BinaryString name="Tags"></BinaryString>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+					<Item class="UIAspectRatioConstraint" referent="RBX90B448A4B1374E01A878D184A37AD9B9">
+						<Properties>
+							<float name="AspectRatio">1</float>
+							<token name="AspectType">1</token>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<token name="DominantAxis">1</token>
+							<string name="Name">UIAspectRatioConstraint</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBXDFC412D16FFB4193B37A184533356EC8">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">ChessMain</string>
+						<string name="ScriptGuid">{CB661054-6C7B-45C7-A378-F2D82D9C66E6}</string>
+						<ProtectedString name="Source"><![CDATA[local GenBoard = require(game.ReplicatedStorage.Chess.GenerateBoard)
+
+local Board = script.Parent.Board
+
+local isBlack = true
+repeat wait() until #game.Players:GetPlayers() > 1 
+if game.ReplicatedStorage.Chess.PlayerList:InvokeServer()[1] == game.Players.LocalPlayer then
+	isBlack = false
+end
+
+
+local BoardArray = GenBoard(Board, 8, isBlack)
+local letters = require(game.ReplicatedStorage.Chess.Letters)
+
+print(BoardArray)
+
+BoardArray = require(game.ReplicatedStorage.Chess.BoardLayouts.Classic)(BoardArray, isBlack)
+
+require(game.ReplicatedStorage.Chess.DisplayPieces)(BoardArray)
+
+local firstSelected = nil
+
+local colors = {}
+local frames = {}
+
+
+game.Players.PlayerRemoving:Connect(function()
+	game.Players.LocalPlayer:Kick('Opponent left the game.')
+end)
+
+game.ReplicatedStorage.Chess.MovePieceFunction.OnClientInvoke = function(firstSelectedRep, new)
+	local x = new[1]
+	local k = new[2]
+	
+	
+	
+	BoardArray[firstSelectedRep[1]][firstSelectedRep[2]], BoardArray[x][k] = require(game.ReplicatedStorage.Chess.MovePiece)(BoardArray[firstSelectedRep[1]][firstSelectedRep[2]], BoardArray[x][k], {Y=firstSelectedRep[1], X=firstSelectedRep[2]}, {Y=x,X=k}, isBlack, BoardArray, true)
+	require(game.ReplicatedStorage.Chess.DisplayPieces)(BoardArray)
+end
+
+for x, c in pairs(BoardArray) do
+	for k, v in pairs(c) do
+		local frame = v[1]
+		frames[frame] = frame
+		
+		colors[frame] = frame.BackgroundColor3
+		frame.MouseButton1Click:Connect(function()
+			for _, v in pairs(frames) do
+				v.BackgroundColor3 = colors[v]
+			end
+			if firstSelected and BoardArray[firstSelected[1]][firstSelected[2]][1] == BoardArray[x][k][1] then firstSelected = nil return end
+			if BoardArray[x][k][2] == 0 and not firstSelected then firstSelected = nil return end
+			if BoardArray[x][k][3] ~= isBlack and not firstSelected then firstSelected = nil return end
+			
+			if not firstSelected then
+				firstSelected = {x,k}
+				frame.BackgroundColor3 = Color3.new(1, 0.666667, 0)
+			elseif firstSelected and BoardArray[x][k][3] == not isBlack or firstSelected and BoardArray[x][k][2] == 0 then
+				local moved = false
+				
+				
+				if moved then
+					print(firstSelected[1],
+						9-firstSelected[2])
+					print(x,
+						9-k)
+					
+					if game.ReplicatedStorage.Chess.MovePieceFunction:InvokeServer(
+						{
+							firstSelected[1],
+							9-firstSelected[2]
+						},
+						{
+							x,
+							9-k
+						}
+						
+						) then
+						BoardArray[firstSelected[1]][firstSelected[2]], BoardArray[x][k], moved = require(game.ReplicatedStorage.Chess.MovePiece)(BoardArray[firstSelected[1]][firstSelected[2]], BoardArray[x][k], {Y=firstSelected[1], X=firstSelected[2]}, {Y=x,X=k}, isBlack, BoardArray)
+					end
+				end
+				
+				
+				require(game.ReplicatedStorage.Chess.DisplayPieces)(BoardArray)
+				firstSelected = nil
+			end
+
+		end)
+		
+	end
+end]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="TextLabel" referent="RBX1BD81BE15EF34528A1E9A776DD30190F">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0.5</X>
+							<Y>0.5</Y>
+						</Vector2>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="AutoLocalize">true</bool>
+						<token name="AutomaticSize">0</token>
+						<Color3 name="BackgroundColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<float name="BackgroundTransparency">0</float>
+						<Color3 name="BorderColor3">
+							<R>0.105882362</R>
+							<G>0.164705887</G>
+							<B>0.207843155</B>
+						</Color3>
+						<token name="BorderMode">0</token>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<token name="Font">3</token>
+						<int name="LayoutOrder">0</int>
+						<float name="LineHeight">1</float>
+						<int name="MaxVisibleGraphemes">-1</int>
+						<string name="Name">TextLabel</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0.5</XS>
+							<XO>0</XO>
+							<YS>0.5</YS>
+							<YO>0</YO>
+						</UDim2>
+						<bool name="RichText">false</bool>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>200</XO>
+							<YS>0</YS>
+							<YO>50</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<string name="Text">waiting for opponent</string>
+						<Color3 name="TextColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<bool name="TextScaled">false</bool>
+						<float name="TextSize">14</float>
+						<Color3 name="TextStrokeColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<float name="TextStrokeTransparency">1</float>
+						<float name="TextTransparency">0</float>
+						<token name="TextTruncate">0</token>
+						<bool name="TextWrapped">false</bool>
+						<token name="TextXAlignment">2</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">0</int>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="LocalizationService" referent="RBXC01C0DEE0A4949CE87997A5923C5746D">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">LocalizationService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TeleportService" referent="RBX7B787EAF40EC4607893D643E2CC551B7">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Teleport Service</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBXEE0C72FE84034147965EBAD521D8F23A">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CollectionService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBX2B98104C85CC4B3F85C3933E71B61E4C">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">PhysicsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX92D1FD994C6D4529A739598F1E2A70AD">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Geometry</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="InsertService" referent="RBX7E0DA06B9D69416586D6ABF836F1DA2D">
+		<Properties>
+			<bool name="AllowClientInsertModels">false</bool>
+			<bool name="AllowInsertFreeModels">false</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">InsertService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="StringValue" referent="RBXBC00267E24904478B774E116BB803BFB">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">InsertionHash</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<string name="Value">{5907ACBF-72A3-47EF-A07D-AB1651408E54}</string>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="GamePassService" referent="RBX3FE51C8A8F9B48DFB1068B5C125ECC43">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">GamePassService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBXFF0F74D4FFA247F8ADDFB06965B0ED0F">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CookiesService" referent="RBXD35A4A42DDC94D9197F4BAA6D5143974">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CookiesService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="VRService" referent="RBXC85926EF61144E40930CC81A5E2A334F">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">VRService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ContextActionService" referent="RBX317252F26A2E43EDA7664377C23B4AF7">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ContextActionService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ScriptService" referent="RBX0CBB644C507D415FB710157587F612A5">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="AssetService" referent="RBX8407EBA545EE4B8B8BDF1CD0506ED398">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">AssetService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TouchInputService" referent="RBX739E291D01B94A03847E5F71FB16BFBF">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">TouchInputService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="AnalyticsService" referent="RBXE7299DEA93B140AD936E5556EE261F4F">
+		<Properties>
+			<string name="ApiKey"></string>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">AnalyticsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBXDA3EEE08B0494BE1ABB199D181C89E2F">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Selection</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ServerScriptService" referent="RBXE633EFA6B18B426BB169D2917BE0FCE6">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="LoadStringEnabled">false</bool>
+			<string name="Name">ServerScriptService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="Script" referent="RBX48AD97854F974062810E92CC19A43B11">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">Script</string>
+				<string name="ScriptGuid">{8D8F646B-E994-408D-ACA7-289438752825}</string>
+				<ProtectedString name="Source"><![CDATA[game.ReplicatedStorage.Chess.PlayerList.OnServerInvoke = function(plr)
+	return game.Players:GetPlayers()
+end
+
+local lastTurn
+local first
+local connect
+connect = game.Players.PlayerAdded:Connect(function(p)
+	first = p
+	connect:Disconnect()
+end)
+
+game.ReplicatedStorage.Chess.MovePieceFunction.OnServerInvoke = function(plr, a,b)
+	if lastTurn == plr or (plr ~= first and not lastTurn) then return end
+	lastTurn = plr
+	for _, v in pairs(game.Players:GetPlayers()) do
+		if plr ~= v then
+			game.ReplicatedStorage.Chess.MovePieceFunction:InvokeClient(v,a,b)
+			
+		end
+	end
+	
+	return true
+end]]></ProtectedString>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="ServerStorage" referent="RBX2799197A34CF4091A1B93CDEA45D4ABE">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ServerStorage</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedStorage" referent="RBX2DFB4DAB7C4342CD9544D0FBB45556A1">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ReplicatedStorage</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="Folder" referent="RBX5AB02462CAB24A8E9A73097DFABF6233">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">Chess</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="ModuleScript" referent="RBX68272DA6503E4B9C8B2410AC5E6EEA30">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">GenerateBoard</string>
+					<string name="ScriptGuid">{D07B482E-7294-41F1-900B-86E0317D2BE6}</string>
+					<ProtectedString name="Source"><![CDATA[local letters = {
+	'a',
+	'b',
+	'c',
+	'd',
+	'e',
+	'f',
+	'g',
+	'h',
+	'i',
+	'j',
+	'k',
+	'l',
+	'm',
+	'n',
+	'o',
+	'p',
+	'q',
+	'r',
+	's',
+	't',
+	'u',
+	'v',
+	'w',
+	'x',
+	'y',
+	'z'
+}
+
+return function(board, size, isBlack)
+	size = math.clamp(size,1,#letters)
+	local TileSize = UDim2.fromOffset(board.AbsoluteSize.X/size, board.AbsoluteSize.X/size)
+	
+	local BoardArray = {}
+	
+	for y = 0, size-1 do
+		for x = 0, size-1 do
+			local frame = Instance.new("TextButton", board)
+			frame.Text = ''
+			frame.Size = TileSize
+			frame.Position = UDim2.fromOffset(y*TileSize.X.Offset, x*TileSize.X.Offset)
+			
+			local label = Instance.new("TextLabel", frame) do
+				label.Size = UDim2.fromScale(1,1)
+				if isBlack then
+					label.Text = ("%s%s"):format(letters[y+1], (x+1))
+				else
+					label.Text = ("%s%s"):format(letters[y+1], (size-(x+1))+1)
+				end
+				
+				label.BackgroundTransparency = 1
+			end
+	
+			
+			
+			if isBlack then
+				frame.Name = ("%s%s"):format(letters[y+1], (x+1))
+			else
+				frame.Name = ("%s%s"):format(letters[y+1], (size-(x+1))+1)
+			end
+			
+			if not BoardArray[letters[y+1]] then
+				BoardArray[letters[y+1]] = {}
+			end
+			
+			BoardArray[letters[y+1]][(size-(x+1))+1] = {frame,0}
+			
+			frame.BorderSizePixel = 3
+			frame.BorderColor3 = Color3.new(0,0,0)
+			
+			
+			if isBlack then
+				if (x + y) % 2 ~= 1 then
+					frame.BackgroundColor3 = Color3.new(0.470588, 0.470588, 0.470588)
+				else
+					frame.BackgroundColor3 = Color3.new(0.835294, 0.835294, 0.835294)
+				end
+			else
+				if (x + y) % 2 ~= 0 then
+					frame.BackgroundColor3 = Color3.new(0.470588, 0.470588, 0.470588)
+				else
+					frame.BackgroundColor3 = Color3.new(0.835294, 0.835294, 0.835294)
+				end
+			end
+			
+		end
+	end
+	
+	
+	return BoardArray
+end]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBXA87C4118FEAD4D678FCE3B28C1737FDA">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">DisplayPieces</string>
+					<string name="ScriptGuid">{36AE6E7C-AD18-4F2A-AA7C-216C10D7DA88}</string>
+					<ProtectedString name="Source"><![CDATA[local Players = game:GetService('Players')
+
+local pieces = {
+	Players:GetUserThumbnailAsync(425079321, Enum.ThumbnailType.AvatarThumbnail, Enum.ThumbnailSize.Size180x180),
+	Players:GetUserThumbnailAsync(118080950, Enum.ThumbnailType.AvatarThumbnail, Enum.ThumbnailSize.Size180x180),
+	Players:GetUserThumbnailAsync(152908877, Enum.ThumbnailType.AvatarThumbnail, Enum.ThumbnailSize.Size180x180),
+	Players:GetUserThumbnailAsync(102778105, Enum.ThumbnailType.AvatarThumbnail, Enum.ThumbnailSize.Size180x180),
+	Players:GetUserThumbnailAsync(1551878098, Enum.ThumbnailType.AvatarThumbnail, Enum.ThumbnailSize.Size180x180),
+	Players:GetUserThumbnailAsync(41372847, Enum.ThumbnailType.AvatarThumbnail, Enum.ThumbnailSize.Size180x180),
+}
+
+local allPieces = {}
+
+return function(board)
+	for _, v in pairs(allPieces) do
+		v:Destroy()
+	end
+	allPieces = {}
+	for _, c in pairs(board) do
+		for _, v in pairs(c) do
+			local piece = v[2]
+			local pos = v[1].Position
+			
+			
+			
+			if piece > 0 then
+				local b = Instance.new("Frame", v[1].Parent) do
+					allPieces[#allPieces + 1] = b
+					b.AnchorPoint = Vector2.new(0.5,0.5)
+					b.Position =UDim2.fromOffset(pos.X.Offset + v[1].Size.X.Offset/2,pos.Y.Offset + v[1].Size.Y.Offset/2)
+					b.BackgroundTransparency = 1
+					b.Size = UDim2.fromOffset(v[1].Size.X.Offset,v[1].Size.X.Offset)
+					
+					local Image = Instance.new("ImageLabel", b) do
+						
+						Image.BackgroundTransparency = 1
+						Image.Size = UDim2.fromScale(1,1)
+						if v[3] then
+							Image.ImageColor3 = Color3.new(0.5, 0.5, 0.5)
+						else
+							Image.ImageColor3 = Color3.new(1, 1, 1)
+						end
+						Image.Image = pieces[v[2]]
+					end
+					
+				end
+			end
+		end
+		
+	end
+end]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="Folder" referent="RBX02A7CFE0EF7F42A995CB8288103826DA">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<string name="Name">BoardLayouts</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="ModuleScript" referent="RBX273DBF0CAAB549BBABC7805090F2D1B4">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Classic</string>
+						<string name="ScriptGuid">{7591959C-36B1-45B2-9463-B36AE9608B7C}</string>
+						<ProtectedString name="Source"><![CDATA[return function(BoardArray, isBlack)
+
+	
+	BoardArray['a'][7][2] = 1
+	BoardArray['b'][7][2] = 1
+	BoardArray['c'][7][2] = 1
+	BoardArray['d'][7][2] = 1
+	BoardArray['e'][7][2] = 1
+	BoardArray['f'][7][2] = 1
+	BoardArray['g'][7][2] = 1
+	BoardArray['h'][7][2] = 1
+
+	BoardArray['a'][2][2] = 1
+	BoardArray['b'][2][2] = 1
+	BoardArray['c'][2][2] = 1
+	BoardArray['d'][2][2] = 1
+	BoardArray['e'][2][2] = 1
+	BoardArray['f'][2][2] = 1
+	BoardArray['g'][2][2] = 1
+	BoardArray['h'][2][2] = 1	
+	
+	BoardArray['a'][8][2] = 4
+	BoardArray['h'][8][2] = 4
+	
+	BoardArray['a'][1][2] = 4
+	BoardArray['h'][1][2] = 4
+	
+	BoardArray['b'][1][2] = 2
+	BoardArray['g'][1][2] = 2
+	
+	BoardArray['b'][8][2] = 2
+	BoardArray['g'][8][2] = 2
+	
+	BoardArray['c'][8][2] = 3
+	BoardArray['f'][8][2] = 3
+	
+	BoardArray['c'][1][2] = 3
+	BoardArray['f'][1][2] = 3
+	
+	BoardArray['d'][8][2] = 5
+	BoardArray['e'][8][2] = 6
+	
+	BoardArray['d'][1][2] = 5
+	BoardArray['e'][1][2] = 6
+	
+	for x, c in pairs(BoardArray) do
+		for k, v in pairs(c) do
+			v[3] = false
+			if v[2] > 0 and k > 4 and isBlack == false then
+				v[3] = true
+			elseif v[2] > 0 and k < 4 and isBlack == true then
+				v[3] = true
+			end
+		end
+	end
+	
+	
+	return BoardArray
+end]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="ModuleScript" referent="RBX1BE3481B1EAC4DED84EC35A21945415C">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">MovePiece</string>
+					<string name="ScriptGuid">{E51232B5-C583-41DE-AC58-371B281F906E}</string>
+					<ProtectedString name="Source"><![CDATA[local letters = require(script.Parent.Letters)
+
+moveTables = require(script.Parent.MoveTables)
+
+return function(current,new,pos1,pos2,isBlack, board, overrideLegal)
+	if not moveTables[current[2]] then return current,new end
+	local legal
+	if overrideLegal then
+		legal = true
+	else
+		legal = moveTables[current[2]](current,new, pos1,pos2, isBlack, board)
+	end
+	
+	
+	if legal then
+		new = {new[1], current[2], current[3]}
+		current = {current[1], 0, current[3]}
+	end
+	return current,new, legal
+end]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBX54176AE723D64D02A79495CAA0B3CE60">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Letters</string>
+					<string name="ScriptGuid">{4C46CE4E-FB67-4215-871A-64193445B10A}</string>
+					<ProtectedString name="Source"><![CDATA[return {
+	'a',
+	'b',
+	'c',
+	'd',
+	'e',
+	'f',
+	'g',
+	'h',
+	'i',
+	'j',
+	'k',
+	'l',
+	'm',
+	'n',
+	'o',
+	'p',
+	'q',
+	'r',
+	's',
+	't',
+	'u',
+	'v',
+	'w',
+	'x',
+	'y',
+	'z'
+}]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="RemoteFunction" referent="RBX9C373931B9B247059F8B2E9D1B3DB041">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<string name="Name">MovePieceFunction</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="RemoteFunction" referent="RBX4B91A22BA1B74F3F93E3166CC1C0E170">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<string name="Name">PlayerList</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBX6AF63858680545BA8C29EE689F5889CB">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">GameHandler</string>
+					<string name="ScriptGuid">{015CFF06-6228-4266-A73D-264BBA297AB1}</string>
+					<ProtectedString name="Source"><![CDATA[local module = {}
+
+local letters = require(script.Parent.Letters)
+
+moveTables = require(script.Parent.MoveTables)
+
+
+function module.IsCheckMate(board)
+	
+end
+
+]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBXE8401D1415804C26A92C29FDF30C0C88">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">MoveTables</string>
+					<string name="ScriptGuid">{3EFC8949-4BBA-4CE0-981E-253F5C3ED860}</string>
+					<ProtectedString name="Source"><![CDATA[local letters = require(script.Parent.Letters)
+
+local moveTables = {
+	function(current,new,pos1,pos2, isBlack) -- pawn movement
+
+		if current[3] == new[3] and new[2] > 0 then return end
+
+		pos1.Y = table.find(letters,pos1.Y)
+		pos2.Y = table.find(letters,pos2.Y)
+
+		local distance = pos2.X - pos1.X
+
+		if pos1.X ~= 2 and distance > 1 or pos1.X == 2 and distance > 2 then
+			return false
+		end
+
+		if pos1.X < pos2.X and pos1.Y == pos2.Y and new[2] == 0 then 
+			return true
+		elseif pos1.Y > pos2.Y and pos1.X < pos2.X and new[2] > 0 or pos1.Y < pos2.Y and pos1.X < pos2.X and new[2] > 0 then
+			return true
+		end
+
+
+		return false
+	end,
+	function(current,new,pos1,pos2, isBlack) -- knight movement
+		pos1.Y = table.find(letters,pos1.Y)
+		pos2.Y = table.find(letters,pos2.Y)
+
+
+
+		local found = false
+
+		for i = -2,2 do
+			if pos2.Y == pos1.Y + i and i ~= 0 then
+				found = true
+				break
+			end
+		end
+
+		if not found then
+			return false
+		end
+
+		local yDistance = math.abs(pos2.Y-pos1.Y)
+		local xDistance = math.abs(pos2.X-pos1.X)
+
+
+		if yDistance == 2 and xDistance == 1 or yDistance == 1 and xDistance == 2 then
+			return true
+		end
+
+
+
+		return false
+	end,
+	function(current,new,pos1,pos2, isBlack, board) -- bishop movement
+		local found = false
+		pos1.Y = table.find(letters,pos1.Y)
+		pos2.Y = table.find(letters,pos2.Y)
+
+		for i = 1, 26 do
+			if pos2.Y == pos1.Y + i and pos2.X == pos1.X + i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x + 1
+					y = y + 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+				break
+			end
+
+			if pos2.Y == pos1.Y - i and pos2.X == pos1.X - i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x - 1
+					y = y - 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+				break
+			end
+
+			if pos2.Y == pos1.Y - i and pos2.X == pos1.X + i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x + 1
+					y = y - 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+
+
+				break
+			end
+
+			if pos2.Y == pos1.Y + i and pos2.X == pos1.X - i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x - 1
+					y = y + 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+
+
+				break
+			end
+
+		end
+
+		if not found then
+			return false
+		end
+
+		return true
+	end,
+	function(current,new,pos1,pos2, isBlack, board) -- rook movement
+		local found = false
+		pos1.Y = table.find(letters,pos1.Y)
+		pos2.Y = table.find(letters,pos2.Y)
+
+		for i = 1, 26 do
+			if pos2.Y == pos1.Y and pos2.X == pos1.X + i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x + 1
+					y = y
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+				break
+			end
+
+			if pos2.Y == pos1.Y and pos2.X == pos1.X - i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x - 1
+					y = y
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+				break
+			end
+
+			if pos2.Y == pos1.Y - i and pos2.X == pos1.X  then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x
+					y = y - 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+
+
+				break
+			end
+
+			if pos2.Y == pos1.Y + i and pos2.X == pos1.X  then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x
+					y = y + 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+
+
+				break
+			end
+
+		end
+
+		if not found then
+			return false
+		end
+
+		return true
+	end,
+	function(current,new,pos1,pos2, isBlack, board) -- queen movement
+		local found = false
+		pos1.Y = table.find(letters,pos1.Y)
+		pos2.Y = table.find(letters,pos2.Y)
+
+		for i = 1, 26 do
+			if pos2.Y == pos1.Y and pos2.X == pos1.X + i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x + 1
+					y = y
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+				break
+			end
+
+			if pos2.Y == pos1.Y and pos2.X == pos1.X - i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x - 1
+					y = y
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+				break
+			end
+
+			if pos2.Y == pos1.Y - i and pos2.X == pos1.X  then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x
+					y = y - 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+
+
+				break
+			end
+
+			if pos2.Y == pos1.Y + i and pos2.X == pos1.X  then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x
+					y = y + 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+
+
+				break
+			end
+
+			if pos2.Y == pos1.Y + i and pos2.X == pos1.X + i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x + 1
+					y = y + 1
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+				break
+			end
+
+			if pos2.Y == pos1.Y - i and pos2.X == pos1.X - i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x - 1
+					y = y - 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+				break
+			end
+
+			if pos2.Y == pos1.Y - i and pos2.X == pos1.X + i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x + 1
+					y = y - 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+
+
+				break
+			end
+
+			if pos2.Y == pos1.Y + i and pos2.X == pos1.X - i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x - 1
+					y = y + 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+
+
+				break
+			end
+
+		end
+		if not found then
+			return false
+		end
+
+		return true
+	end,
+	function(current,new,pos1,pos2, isBlack, board) -- king movement
+		local found = false
+		pos1.Y = table.find(letters,pos1.Y)
+		pos2.Y = table.find(letters,pos2.Y)
+
+		for i = 1, 1 do
+			if pos2.Y == pos1.Y and pos2.X == pos1.X + i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x + 1
+					y = y
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+				break
+			end
+
+			if pos2.Y == pos1.Y and pos2.X == pos1.X - i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x - 1
+					y = y
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+				break
+			end
+
+			if pos2.Y == pos1.Y - i and pos2.X == pos1.X  then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x
+					y = y - 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+
+
+				break
+			end
+
+			if pos2.Y == pos1.Y + i and pos2.X == pos1.X  then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x
+					y = y + 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+
+
+				break
+			end
+
+			if pos2.Y == pos1.Y + i and pos2.X == pos1.X + i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x + 1
+					y = y + 1
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+				break
+			end
+
+			if pos2.Y == pos1.Y - i and pos2.X == pos1.X - i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x - 1
+					y = y - 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+				break
+			end
+
+			if pos2.Y == pos1.Y - i and pos2.X == pos1.X + i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x + 1
+					y = y - 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+
+
+				break
+			end
+
+			if pos2.Y == pos1.Y + i and pos2.X == pos1.X - i then
+				found = true 
+				local x,y = pos1.X,pos1.Y
+				repeat 
+					x = x - 1
+					y = y + 1
+
+					local doBreak = false
+					pcall(function()
+						if board[letters[y]][x][2] > 0 and board[letters[y]][x][3] == isBlack then
+							found = false
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 and board[letters[y]][x][3] ~= isBlack and x == pos2.X and y == pos2.Y then
+							doBreak = true
+						elseif board[letters[y]][x][2] > 0 then
+							found = false
+							doBreak = true
+						end
+					end)
+					if doBreak then break end
+
+				until x == pos2.X and y == pos2.Y
+
+
+
+				break
+			end
+
+		end
+		if not found then
+			return false
+		end
+
+		return true
+	end,
+}
+
+return moveTables]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="LuaWebService" referent="RBXB0473E53B38E44BEBDDE10533F6D4C32">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBXDA01E9B5465B46ACA7FBE7881804B3FB">
+		<Properties>
+			<Color3 name="Ambient">
+				<R>0.541176498</R>
+				<G>0.541176498</G>
+				<B>0.541176498</B>
+			</Color3>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<float name="Brightness">2</float>
+			<Color3 name="ColorShift_Bottom">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<Color3 name="ColorShift_Top">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<float name="EnvironmentDiffuseScale">0</float>
+			<float name="EnvironmentSpecularScale">0</float>
+			<float name="ExposureCompensation">0</float>
+			<Color3 name="FogColor">
+				<R>0.752941251</R>
+				<G>0.752941251</G>
+				<B>0.752941251</B>
+			</Color3>
+			<float name="FogEnd">100000</float>
+			<float name="FogStart">0</float>
+			<float name="GeographicLatitude">41.7332993</float>
+			<bool name="GlobalShadows">true</bool>
+			<string name="Name">Lighting</string>
+			<Color3 name="OutdoorAmbient">
+				<R>0.501960814</R>
+				<G>0.501960814</G>
+				<B>0.501960814</B>
+			</Color3>
+			<bool name="Outlines">false</bool>
+			<float name="ShadowSoftness">0.200000003</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<token name="Technology">3</token>
+			<string name="TimeOfDay">14:00:00</string>
+		</Properties>
+	</Item>
+	<Item class="HttpService" referent="RBX36A8672ACEAA4033A41BCA8C61162C1A">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="HttpEnabled">false</bool>
+			<string name="Name">HttpService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="LanguageService" referent="RBXAC1C9E5760CB4F3FA5772074A04886A9">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">LanguageService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TestService" referent="RBX1DD177DAB1804E1CB67087B00DE5CC96">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoRuns">true</bool>
+			<string name="Description"></string>
+			<bool name="ExecuteWithStudioRun">false</bool>
+			<bool name="Is30FpsThrottleEnabled">true</bool>
+			<bool name="IsPhysicsEnvironmentalThrottled">true</bool>
+			<bool name="IsSleepAllowed">true</bool>
+			<string name="Name">TestService</string>
+			<int name="NumberOfPlayers">0</int>
+			<double name="SimulateSecondsLag">0</double>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<double name="Timeout">10</double>
+		</Properties>
+	</Item>
+	<Item class="VirtualInputManager" referent="RBX0835AE959860496CBE4528A66997E246">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">VirtualInputManager</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<SharedStrings>
+		<SharedString md5="yuZpQdnvvUBOTYh1jqZ2cA=="></SharedString>
+	</SharedStrings>
+</roblox>
