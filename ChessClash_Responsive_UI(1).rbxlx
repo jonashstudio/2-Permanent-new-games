@@ -1,0 +1,4443 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="DataModel" referent="RBX1">
+    <Properties>
+      <string name="Name">Game</string>
+    </Properties>
+    <Item class="StarterGui" referent="RBX2">
+      <Properties>
+        <string name="Name">StarterGui</string>
+      </Properties>
+      <Item class="ScreenGui" referent="RBX3">
+        <Properties>
+          <string name="Name">ChessClashUI</string>
+          <bool name="Enabled">true</bool>
+          <bool name="ResetOnSpawn">false</bool>
+          <bool name="IgnoreGuiInset">true</bool>
+          <int name="DisplayOrder">20</int>
+          <token name="ZIndexBehavior">1</token>
+        </Properties>
+        <Item class="Frame" referent="RBX4">
+          <Properties>
+            <string name="Name">Root</string>
+            <Color3 name="BackgroundColor3">
+              <R>0.035</R>
+              <G>0.043</G>
+              <B>0.065</B>
+            </Color3>
+            <float name="BackgroundTransparency">0</float>
+            <bool name="Visible">true</bool>
+            <int name="ZIndex">1</int>
+            <int name="BorderSizePixel">0</int>
+            <bool name="ClipsDescendants">false</bool>
+            <UDim2 name="Size">
+              <XS>1</XS>
+              <XO>0</XO>
+              <YS>1</YS>
+              <YO>0</YO>
+            </UDim2>
+            <UDim2 name="Position">
+              <XS>0</XS>
+              <XO>0</XO>
+              <YS>0</YS>
+              <YO>0</YO>
+            </UDim2>
+          </Properties>
+          <Item class="Frame" referent="RBX5">
+            <Properties>
+              <string name="Name">Header</string>
+              <Color3 name="BackgroundColor3">
+                <R>0.055</R>
+                <G>0.065</G>
+                <B>0.095</B>
+              </Color3>
+              <float name="BackgroundTransparency">0</float>
+              <bool name="Visible">true</bool>
+              <int name="ZIndex">2</int>
+              <int name="BorderSizePixel">0</int>
+              <bool name="ClipsDescendants">false</bool>
+              <UDim2 name="Size">
+                <XS>1</XS>
+                <XO>0</XO>
+                <YS>0</YS>
+                <YO>66</YO>
+              </UDim2>
+              <UDim2 name="Position">
+                <XS>0</XS>
+                <XO>0</XO>
+                <YS>0</YS>
+                <YO>0</YO>
+              </UDim2>
+            </Properties>
+            <Item class="TextLabel" referent="RBX6">
+              <Properties>
+                <string name="Name">Brand</string>
+                <Color3 name="BackgroundColor3">
+                  <R>0.05</R>
+                  <G>0.06</G>
+                  <B>0.09</B>
+                </Color3>
+                <float name="BackgroundTransparency">1</float>
+                <bool name="Visible">true</bool>
+                <int name="ZIndex">3</int>
+                <int name="BorderSizePixel">0</int>
+                <bool name="ClipsDescendants">false</bool>
+                <UDim2 name="Size">
+                  <XS>0</XS>
+                  <XO>220</XO>
+                  <YS>1</YS>
+                  <YO>0</YO>
+                </UDim2>
+                <UDim2 name="Position">
+                  <XS>0</XS>
+                  <XO>22</XO>
+                  <YS>0</YS>
+                  <YO>0</YO>
+                </UDim2>
+                <string name="Text">CHESS CLASH</string>
+                <int name="TextSize">25</int>
+                <Color3 name="TextColor3">
+                  <R>0.78</R>
+                  <G>0.68</G>
+                  <B>1</B>
+                </Color3>
+                <Color3 name="BackgroundColor3">
+                  <R>0.05</R>
+                  <G>0.06</G>
+                  <B>0.09</B>
+                </Color3>
+                <float name="BackgroundTransparency">1</float>
+                <bool name="TextWrapped">false</bool>
+                <bool name="TextScaled">false</bool>
+                <int name="ZIndex">2</int>
+                <int name="BorderSizePixel">0</int>
+                <token name="Font">7</token>
+              </Properties>
+            </Item>
+            <Item class="TextLabel" referent="RBX7">
+              <Properties>
+                <string name="Name">HeaderTagline</string>
+                <Color3 name="BackgroundColor3">
+                  <R>0.05</R>
+                  <G>0.06</G>
+                  <B>0.09</B>
+                </Color3>
+                <float name="BackgroundTransparency">1</float>
+                <bool name="Visible">true</bool>
+                <int name="ZIndex">3</int>
+                <int name="BorderSizePixel">0</int>
+                <bool name="ClipsDescendants">false</bool>
+                <UDim2 name="Size">
+                  <XS>0</XS>
+                  <XO>240</XO>
+                  <YS>1</YS>
+                  <YO>0</YO>
+                </UDim2>
+                <UDim2 name="Position">
+                  <XS>0</XS>
+                  <XO>225</XO>
+                  <YS>0</YS>
+                  <YO>0</YO>
+                </UDim2>
+                <string name="Text">THINK. PLAN. DOMINATE.</string>
+                <int name="TextSize">12</int>
+                <Color3 name="TextColor3">
+                  <R>0.62</R>
+                  <G>0.65</G>
+                  <B>0.75</B>
+                </Color3>
+                <Color3 name="BackgroundColor3">
+                  <R>0.05</R>
+                  <G>0.06</G>
+                  <B>0.09</B>
+                </Color3>
+                <float name="BackgroundTransparency">1</float>
+                <bool name="TextWrapped">false</bool>
+                <bool name="TextScaled">false</bool>
+                <int name="ZIndex">2</int>
+                <int name="BorderSizePixel">0</int>
+                <token name="Font">7</token>
+              </Properties>
+            </Item>
+            <Item class="TextButton" referent="RBX8">
+              <Properties>
+                <string name="Name">ProfileButton</string>
+                <Color3 name="BackgroundColor3">
+                  <R>0.12</R>
+                  <G>0.13</G>
+                  <B>0.19</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="Visible">true</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <bool name="ClipsDescendants">false</bool>
+                <UDim2 name="Size">
+                  <XS>0</XS>
+                  <XO>158</XO>
+                  <YS>0</YS>
+                  <YO>40</YO>
+                </UDim2>
+                <UDim2 name="Position">
+                  <XS>1</XS>
+                  <XO>-176</XO>
+                  <YS>0</YS>
+                  <YO>13</YO>
+                </UDim2>
+                <string name="Text">PLAYER  •  1200</string>
+                <int name="TextSize">13</int>
+                <Color3 name="TextColor3">
+                  <R>1</R>
+                  <G>1</G>
+                  <B>1</B>
+                </Color3>
+                <Color3 name="BackgroundColor3">
+                  <R>0.12</R>
+                  <G>0.13</G>
+                  <B>0.19</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="TextWrapped">false</bool>
+                <bool name="TextScaled">false</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <token name="Font">7</token>
+                <bool name="AutoButtonColor">true</bool>
+                <bool name="Selectable">true</bool>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="Frame" referent="RBX9">
+            <Properties>
+              <string name="Name">Sidebar</string>
+              <Color3 name="BackgroundColor3">
+                <R>0.05</R>
+                <G>0.06</G>
+                <B>0.09</B>
+              </Color3>
+              <float name="BackgroundTransparency">0</float>
+              <bool name="Visible">true</bool>
+              <int name="ZIndex">2</int>
+              <int name="BorderSizePixel">0</int>
+              <bool name="ClipsDescendants">false</bool>
+              <UDim2 name="Size">
+                <XS>0</XS>
+                <XO>184</XO>
+                <YS>1</YS>
+                <YO>-66</YO>
+              </UDim2>
+              <UDim2 name="Position">
+                <XS>0</XS>
+                <XO>0</XO>
+                <YS>0</YS>
+                <YO>66</YO>
+              </UDim2>
+            </Properties>
+            <Item class="TextButton" referent="RBX10">
+              <Properties>
+                <string name="Name">Nav1</string>
+                <Color3 name="BackgroundColor3">
+                  <R>0.105</R>
+                  <G>0.115</G>
+                  <B>0.16</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="Visible">true</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <bool name="ClipsDescendants">false</bool>
+                <UDim2 name="Size">
+                  <XS>1</XS>
+                  <XO>-24</XO>
+                  <YS>0</YS>
+                  <YO>46</YO>
+                </UDim2>
+                <UDim2 name="Position">
+                  <XS>0</XS>
+                  <XO>12</XO>
+                  <YS>0</YS>
+                  <YO>18</YO>
+                </UDim2>
+                <string name="Text">⌂   HOME</string>
+                <int name="TextSize">14</int>
+                <Color3 name="TextColor3">
+                  <R>0.9</R>
+                  <G>0.9</G>
+                  <B>0.98</B>
+                </Color3>
+                <Color3 name="BackgroundColor3">
+                  <R>0.105</R>
+                  <G>0.115</G>
+                  <B>0.16</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="TextWrapped">false</bool>
+                <bool name="TextScaled">false</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <token name="Font">7</token>
+                <bool name="AutoButtonColor">true</bool>
+                <bool name="Selectable">true</bool>
+              </Properties>
+            </Item>
+            <Item class="TextButton" referent="RBX11">
+              <Properties>
+                <string name="Name">Nav2</string>
+                <Color3 name="BackgroundColor3">
+                  <R>0.105</R>
+                  <G>0.115</G>
+                  <B>0.16</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="Visible">true</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <bool name="ClipsDescendants">false</bool>
+                <UDim2 name="Size">
+                  <XS>1</XS>
+                  <XO>-24</XO>
+                  <YS>0</YS>
+                  <YO>46</YO>
+                </UDim2>
+                <UDim2 name="Position">
+                  <XS>0</XS>
+                  <XO>12</XO>
+                  <YS>0</YS>
+                  <YO>76</YO>
+                </UDim2>
+                <string name="Text">♟   PLAY</string>
+                <int name="TextSize">14</int>
+                <Color3 name="TextColor3">
+                  <R>0.9</R>
+                  <G>0.9</G>
+                  <B>0.98</B>
+                </Color3>
+                <Color3 name="BackgroundColor3">
+                  <R>0.105</R>
+                  <G>0.115</G>
+                  <B>0.16</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="TextWrapped">false</bool>
+                <bool name="TextScaled">false</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <token name="Font">7</token>
+                <bool name="AutoButtonColor">true</bool>
+                <bool name="Selectable">true</bool>
+              </Properties>
+            </Item>
+            <Item class="TextButton" referent="RBX12">
+              <Properties>
+                <string name="Name">Nav3</string>
+                <Color3 name="BackgroundColor3">
+                  <R>0.105</R>
+                  <G>0.115</G>
+                  <B>0.16</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="Visible">true</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <bool name="ClipsDescendants">false</bool>
+                <UDim2 name="Size">
+                  <XS>1</XS>
+                  <XO>-24</XO>
+                  <YS>0</YS>
+                  <YO>46</YO>
+                </UDim2>
+                <UDim2 name="Position">
+                  <XS>0</XS>
+                  <XO>12</XO>
+                  <YS>0</YS>
+                  <YO>134</YO>
+                </UDim2>
+                <string name="Text">♜   PUZZLES</string>
+                <int name="TextSize">14</int>
+                <Color3 name="TextColor3">
+                  <R>0.9</R>
+                  <G>0.9</G>
+                  <B>0.98</B>
+                </Color3>
+                <Color3 name="BackgroundColor3">
+                  <R>0.105</R>
+                  <G>0.115</G>
+                  <B>0.16</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="TextWrapped">false</bool>
+                <bool name="TextScaled">false</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <token name="Font">7</token>
+                <bool name="AutoButtonColor">true</bool>
+                <bool name="Selectable">true</bool>
+              </Properties>
+            </Item>
+            <Item class="TextButton" referent="RBX13">
+              <Properties>
+                <string name="Name">Nav4</string>
+                <Color3 name="BackgroundColor3">
+                  <R>0.105</R>
+                  <G>0.115</G>
+                  <B>0.16</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="Visible">true</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <bool name="ClipsDescendants">false</bool>
+                <UDim2 name="Size">
+                  <XS>1</XS>
+                  <XO>-24</XO>
+                  <YS>0</YS>
+                  <YO>46</YO>
+                </UDim2>
+                <UDim2 name="Position">
+                  <XS>0</XS>
+                  <XO>12</XO>
+                  <YS>0</YS>
+                  <YO>192</YO>
+                </UDim2>
+                <string name="Text">◈   LEADERBOARD</string>
+                <int name="TextSize">14</int>
+                <Color3 name="TextColor3">
+                  <R>0.9</R>
+                  <G>0.9</G>
+                  <B>0.98</B>
+                </Color3>
+                <Color3 name="BackgroundColor3">
+                  <R>0.105</R>
+                  <G>0.115</G>
+                  <B>0.16</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="TextWrapped">false</bool>
+                <bool name="TextScaled">false</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <token name="Font">7</token>
+                <bool name="AutoButtonColor">true</bool>
+                <bool name="Selectable">true</bool>
+              </Properties>
+            </Item>
+            <Item class="TextButton" referent="RBX14">
+              <Properties>
+                <string name="Name">Nav5</string>
+                <Color3 name="BackgroundColor3">
+                  <R>0.105</R>
+                  <G>0.115</G>
+                  <B>0.16</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="Visible">true</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <bool name="ClipsDescendants">false</bool>
+                <UDim2 name="Size">
+                  <XS>1</XS>
+                  <XO>-24</XO>
+                  <YS>0</YS>
+                  <YO>46</YO>
+                </UDim2>
+                <UDim2 name="Position">
+                  <XS>0</XS>
+                  <XO>12</XO>
+                  <YS>0</YS>
+                  <YO>250</YO>
+                </UDim2>
+                <string name="Text">⚙   SETTINGS</string>
+                <int name="TextSize">14</int>
+                <Color3 name="TextColor3">
+                  <R>0.9</R>
+                  <G>0.9</G>
+                  <B>0.98</B>
+                </Color3>
+                <Color3 name="BackgroundColor3">
+                  <R>0.105</R>
+                  <G>0.115</G>
+                  <B>0.16</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="TextWrapped">false</bool>
+                <bool name="TextScaled">false</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <token name="Font">7</token>
+                <bool name="AutoButtonColor">true</bool>
+                <bool name="Selectable">true</bool>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="Frame" referent="RBX15">
+            <Properties>
+              <string name="Name">Content</string>
+              <Color3 name="BackgroundColor3">
+                <R>0.035</R>
+                <G>0.043</G>
+                <B>0.065</B>
+              </Color3>
+              <float name="BackgroundTransparency">0</float>
+              <bool name="Visible">true</bool>
+              <int name="ZIndex">2</int>
+              <int name="BorderSizePixel">0</int>
+              <bool name="ClipsDescendants">false</bool>
+              <UDim2 name="Size">
+                <XS>1</XS>
+                <XO>-208</XO>
+                <YS>1</YS>
+                <YO>-78</YO>
+              </UDim2>
+              <UDim2 name="Position">
+                <XS>0</XS>
+                <XO>196</XO>
+                <YS>0</YS>
+                <YO>76</YO>
+              </UDim2>
+            </Properties>
+            <Item class="Frame" referent="RBX16">
+              <Properties>
+                <string name="Name">BoardPanel</string>
+                <Color3 name="BackgroundColor3">
+                  <R>0.07</R>
+                  <G>0.08</G>
+                  <B>0.12</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="Visible">true</bool>
+                <int name="ZIndex">2</int>
+                <int name="BorderSizePixel">0</int>
+                <bool name="ClipsDescendants">false</bool>
+                <UDim2 name="Size">
+                  <XS>0</XS>
+                  <XO>500</XO>
+                  <YS>0</YS>
+                  <YO>500</YO>
+                </UDim2>
+                <UDim2 name="Position">
+                  <XS>0</XS>
+                  <XO>0</XO>
+                  <YS>0</YS>
+                  <YO>0</YO>
+                </UDim2>
+              </Properties>
+              <Item class="TextLabel" referent="RBX17">
+                <Properties>
+                  <string name="Name">BoardTitle</string>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.05</R>
+                    <G>0.06</G>
+                    <B>0.09</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">1</float>
+                  <bool name="Visible">true</bool>
+                  <int name="ZIndex">3</int>
+                  <int name="BorderSizePixel">0</int>
+                  <bool name="ClipsDescendants">false</bool>
+                  <UDim2 name="Size">
+                    <XS>1</XS>
+                    <XO>0</XO>
+                    <YS>0</YS>
+                    <YO>28</YO>
+                  </UDim2>
+                  <UDim2 name="Position">
+                    <XS>0</XS>
+                    <XO>0</XO>
+                    <YS>0</YS>
+                    <YO>-34</YO>
+                  </UDim2>
+                  <string name="Text">YOUR NEXT MOVE</string>
+                  <int name="TextSize">13</int>
+                  <Color3 name="TextColor3">
+                    <R>0.67</R>
+                    <G>0.69</G>
+                    <B>0.78</B>
+                  </Color3>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.05</R>
+                    <G>0.06</G>
+                    <B>0.09</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">1</float>
+                  <bool name="TextWrapped">false</bool>
+                  <bool name="TextScaled">false</bool>
+                  <int name="ZIndex">2</int>
+                  <int name="BorderSizePixel">0</int>
+                  <token name="Font">7</token>
+                </Properties>
+              </Item>
+              <Item class="Frame" referent="RBX18">
+                <Properties>
+                  <string name="Name">ChessBoard</string>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.12</R>
+                    <G>0.13</G>
+                    <B>0.17</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">0</float>
+                  <bool name="Visible">true</bool>
+                  <int name="ZIndex">3</int>
+                  <int name="BorderSizePixel">0</int>
+                  <bool name="ClipsDescendants">true</bool>
+                  <UDim2 name="Size">
+                    <XS>1</XS>
+                    <XO>-16</XO>
+                    <YS>1</YS>
+                    <YO>-16</YO>
+                  </UDim2>
+                  <UDim2 name="Position">
+                    <XS>0</XS>
+                    <XO>8</XO>
+                    <YS>0</YS>
+                    <YO>8</YO>
+                  </UDim2>
+                </Properties>
+                <Item class="TextButton" referent="RBX19">
+                  <Properties>
+                    <string name="Name">Square_a8</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.0</XS>
+                      <XO>0</XO>
+                      <YS>0.0</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♜</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX20">
+                  <Properties>
+                    <string name="Name">Square_b8</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.0</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♞</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX21">
+                  <Properties>
+                    <string name="Name">Square_c8</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.25</XS>
+                      <XO>0</XO>
+                      <YS>0.0</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♝</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX22">
+                  <Properties>
+                    <string name="Name">Square_d8</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.375</XS>
+                      <XO>0</XO>
+                      <YS>0.0</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♛</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX23">
+                  <Properties>
+                    <string name="Name">Square_e8</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.5</XS>
+                      <XO>0</XO>
+                      <YS>0.0</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♚</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX24">
+                  <Properties>
+                    <string name="Name">Square_f8</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.625</XS>
+                      <XO>0</XO>
+                      <YS>0.0</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♝</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX25">
+                  <Properties>
+                    <string name="Name">Square_g8</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.75</XS>
+                      <XO>0</XO>
+                      <YS>0.0</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♞</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX26">
+                  <Properties>
+                    <string name="Name">Square_h8</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.875</XS>
+                      <XO>0</XO>
+                      <YS>0.0</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♜</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX27">
+                  <Properties>
+                    <string name="Name">Square_a7</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.0</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♟</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX28">
+                  <Properties>
+                    <string name="Name">Square_b7</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♟</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX29">
+                  <Properties>
+                    <string name="Name">Square_c7</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.25</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♟</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX30">
+                  <Properties>
+                    <string name="Name">Square_d7</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.375</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♟</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX31">
+                  <Properties>
+                    <string name="Name">Square_e7</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.5</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♟</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX32">
+                  <Properties>
+                    <string name="Name">Square_f7</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.625</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♟</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX33">
+                  <Properties>
+                    <string name="Name">Square_g7</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.75</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♟</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX34">
+                  <Properties>
+                    <string name="Name">Square_h7</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.875</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♟</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX35">
+                  <Properties>
+                    <string name="Name">Square_a6</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.0</XS>
+                      <XO>0</XO>
+                      <YS>0.25</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX36">
+                  <Properties>
+                    <string name="Name">Square_b6</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.25</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX37">
+                  <Properties>
+                    <string name="Name">Square_c6</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.25</XS>
+                      <XO>0</XO>
+                      <YS>0.25</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX38">
+                  <Properties>
+                    <string name="Name">Square_d6</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.375</XS>
+                      <XO>0</XO>
+                      <YS>0.25</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX39">
+                  <Properties>
+                    <string name="Name">Square_e6</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.5</XS>
+                      <XO>0</XO>
+                      <YS>0.25</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX40">
+                  <Properties>
+                    <string name="Name">Square_f6</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.625</XS>
+                      <XO>0</XO>
+                      <YS>0.25</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX41">
+                  <Properties>
+                    <string name="Name">Square_g6</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.75</XS>
+                      <XO>0</XO>
+                      <YS>0.25</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX42">
+                  <Properties>
+                    <string name="Name">Square_h6</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.875</XS>
+                      <XO>0</XO>
+                      <YS>0.25</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX43">
+                  <Properties>
+                    <string name="Name">Square_a5</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.0</XS>
+                      <XO>0</XO>
+                      <YS>0.375</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX44">
+                  <Properties>
+                    <string name="Name">Square_b5</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.375</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX45">
+                  <Properties>
+                    <string name="Name">Square_c5</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.25</XS>
+                      <XO>0</XO>
+                      <YS>0.375</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX46">
+                  <Properties>
+                    <string name="Name">Square_d5</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.375</XS>
+                      <XO>0</XO>
+                      <YS>0.375</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX47">
+                  <Properties>
+                    <string name="Name">Square_e5</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.5</XS>
+                      <XO>0</XO>
+                      <YS>0.375</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX48">
+                  <Properties>
+                    <string name="Name">Square_f5</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.625</XS>
+                      <XO>0</XO>
+                      <YS>0.375</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX49">
+                  <Properties>
+                    <string name="Name">Square_g5</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.75</XS>
+                      <XO>0</XO>
+                      <YS>0.375</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX50">
+                  <Properties>
+                    <string name="Name">Square_h5</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.875</XS>
+                      <XO>0</XO>
+                      <YS>0.375</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX51">
+                  <Properties>
+                    <string name="Name">Square_a4</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.0</XS>
+                      <XO>0</XO>
+                      <YS>0.5</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX52">
+                  <Properties>
+                    <string name="Name">Square_b4</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.5</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX53">
+                  <Properties>
+                    <string name="Name">Square_c4</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.25</XS>
+                      <XO>0</XO>
+                      <YS>0.5</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX54">
+                  <Properties>
+                    <string name="Name">Square_d4</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.375</XS>
+                      <XO>0</XO>
+                      <YS>0.5</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX55">
+                  <Properties>
+                    <string name="Name">Square_e4</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.5</XS>
+                      <XO>0</XO>
+                      <YS>0.5</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX56">
+                  <Properties>
+                    <string name="Name">Square_f4</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.625</XS>
+                      <XO>0</XO>
+                      <YS>0.5</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX57">
+                  <Properties>
+                    <string name="Name">Square_g4</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.75</XS>
+                      <XO>0</XO>
+                      <YS>0.5</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX58">
+                  <Properties>
+                    <string name="Name">Square_h4</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.875</XS>
+                      <XO>0</XO>
+                      <YS>0.5</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX59">
+                  <Properties>
+                    <string name="Name">Square_a3</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.0</XS>
+                      <XO>0</XO>
+                      <YS>0.625</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX60">
+                  <Properties>
+                    <string name="Name">Square_b3</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.625</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX61">
+                  <Properties>
+                    <string name="Name">Square_c3</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.25</XS>
+                      <XO>0</XO>
+                      <YS>0.625</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX62">
+                  <Properties>
+                    <string name="Name">Square_d3</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.375</XS>
+                      <XO>0</XO>
+                      <YS>0.625</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX63">
+                  <Properties>
+                    <string name="Name">Square_e3</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.5</XS>
+                      <XO>0</XO>
+                      <YS>0.625</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX64">
+                  <Properties>
+                    <string name="Name">Square_f3</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.625</XS>
+                      <XO>0</XO>
+                      <YS>0.625</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX65">
+                  <Properties>
+                    <string name="Name">Square_g3</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.75</XS>
+                      <XO>0</XO>
+                      <YS>0.625</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX66">
+                  <Properties>
+                    <string name="Name">Square_h3</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.875</XS>
+                      <XO>0</XO>
+                      <YS>0.625</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text" />
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX67">
+                  <Properties>
+                    <string name="Name">Square_a2</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.0</XS>
+                      <XO>0</XO>
+                      <YS>0.75</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♙</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX68">
+                  <Properties>
+                    <string name="Name">Square_b2</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.75</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♙</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX69">
+                  <Properties>
+                    <string name="Name">Square_c2</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.25</XS>
+                      <XO>0</XO>
+                      <YS>0.75</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♙</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX70">
+                  <Properties>
+                    <string name="Name">Square_d2</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.375</XS>
+                      <XO>0</XO>
+                      <YS>0.75</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♙</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX71">
+                  <Properties>
+                    <string name="Name">Square_e2</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.5</XS>
+                      <XO>0</XO>
+                      <YS>0.75</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♙</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX72">
+                  <Properties>
+                    <string name="Name">Square_f2</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.625</XS>
+                      <XO>0</XO>
+                      <YS>0.75</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♙</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX73">
+                  <Properties>
+                    <string name="Name">Square_g2</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.75</XS>
+                      <XO>0</XO>
+                      <YS>0.75</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♙</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX74">
+                  <Properties>
+                    <string name="Name">Square_h2</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.875</XS>
+                      <XO>0</XO>
+                      <YS>0.75</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♙</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX75">
+                  <Properties>
+                    <string name="Name">Square_a1</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.0</XS>
+                      <XO>0</XO>
+                      <YS>0.875</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♖</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX76">
+                  <Properties>
+                    <string name="Name">Square_b1</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.875</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♘</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX77">
+                  <Properties>
+                    <string name="Name">Square_c1</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.25</XS>
+                      <XO>0</XO>
+                      <YS>0.875</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♗</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX78">
+                  <Properties>
+                    <string name="Name">Square_d1</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.375</XS>
+                      <XO>0</XO>
+                      <YS>0.875</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♕</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX79">
+                  <Properties>
+                    <string name="Name">Square_e1</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.5</XS>
+                      <XO>0</XO>
+                      <YS>0.875</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♔</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX80">
+                  <Properties>
+                    <string name="Name">Square_f1</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.625</XS>
+                      <XO>0</XO>
+                      <YS>0.875</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♗</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX81">
+                  <Properties>
+                    <string name="Name">Square_g1</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.75</XS>
+                      <XO>0</XO>
+                      <YS>0.875</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♘</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.98</R>
+                      <G>0.97</G>
+                      <B>0.94</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.34</R>
+                      <G>0.3</G>
+                      <B>0.45</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+                <Item class="TextButton" referent="RBX82">
+                  <Properties>
+                    <string name="Name">Square_h1</string>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="Visible">true</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <bool name="ClipsDescendants">false</bool>
+                    <UDim2 name="Size">
+                      <XS>0.125</XS>
+                      <XO>0</XO>
+                      <YS>0.125</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <UDim2 name="Position">
+                      <XS>0.875</XS>
+                      <XO>0</XO>
+                      <YS>0.875</YS>
+                      <YO>0</YO>
+                    </UDim2>
+                    <string name="Text">♖</string>
+                    <int name="TextSize">30</int>
+                    <Color3 name="TextColor3">
+                      <R>0.16</R>
+                      <G>0.15</G>
+                      <B>0.18</B>
+                    </Color3>
+                    <Color3 name="BackgroundColor3">
+                      <R>0.83</R>
+                      <G>0.82</G>
+                      <B>0.77</B>
+                    </Color3>
+                    <float name="BackgroundTransparency">0</float>
+                    <bool name="TextWrapped">false</bool>
+                    <bool name="TextScaled">false</bool>
+                    <int name="ZIndex">4</int>
+                    <int name="BorderSizePixel">0</int>
+                    <token name="Font">7</token>
+                    <bool name="AutoButtonColor">false</bool>
+                    <bool name="Selectable">true</bool>
+                  </Properties>
+                </Item>
+              </Item>
+            </Item>
+            <Item class="Frame" referent="RBX83">
+              <Properties>
+                <string name="Name">RightPanel</string>
+                <Color3 name="BackgroundColor3">
+                  <R>0.055</R>
+                  <G>0.065</G>
+                  <B>0.095</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="Visible">true</bool>
+                <int name="ZIndex">2</int>
+                <int name="BorderSizePixel">0</int>
+                <bool name="ClipsDescendants">false</bool>
+                <UDim2 name="Size">
+                  <XS>0</XS>
+                  <XO>264</XO>
+                  <YS>1</YS>
+                  <YO>0</YO>
+                </UDim2>
+                <UDim2 name="Position">
+                  <XS>1</XS>
+                  <XO>-264</XO>
+                  <YS>0</YS>
+                  <YO>0</YO>
+                </UDim2>
+              </Properties>
+              <Item class="TextLabel" referent="RBX84">
+                <Properties>
+                  <string name="Name">MatchTitle</string>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.05</R>
+                    <G>0.06</G>
+                    <B>0.09</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">1</float>
+                  <bool name="Visible">true</bool>
+                  <int name="ZIndex">3</int>
+                  <int name="BorderSizePixel">0</int>
+                  <bool name="ClipsDescendants">false</bool>
+                  <UDim2 name="Size">
+                    <XS>1</XS>
+                    <XO>-32</XO>
+                    <YS>0</YS>
+                    <YO>28</YO>
+                  </UDim2>
+                  <UDim2 name="Position">
+                    <XS>0</XS>
+                    <XO>16</XO>
+                    <YS>0</YS>
+                    <YO>12</YO>
+                  </UDim2>
+                  <string name="Text">QUICK PLAY</string>
+                  <int name="TextSize">18</int>
+                  <Color3 name="TextColor3">
+                    <R>0.83</R>
+                    <G>0.78</G>
+                    <B>1</B>
+                  </Color3>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.05</R>
+                    <G>0.06</G>
+                    <B>0.09</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">1</float>
+                  <bool name="TextWrapped">false</bool>
+                  <bool name="TextScaled">false</bool>
+                  <int name="ZIndex">2</int>
+                  <int name="BorderSizePixel">0</int>
+                  <token name="Font">7</token>
+                </Properties>
+              </Item>
+              <Item class="TextLabel" referent="RBX85">
+                <Properties>
+                  <string name="Name">OpponentLabel</string>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.05</R>
+                    <G>0.06</G>
+                    <B>0.09</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">1</float>
+                  <bool name="Visible">true</bool>
+                  <int name="ZIndex">3</int>
+                  <int name="BorderSizePixel">0</int>
+                  <bool name="ClipsDescendants">false</bool>
+                  <UDim2 name="Size">
+                    <XS>1</XS>
+                    <XO>-32</XO>
+                    <YS>0</YS>
+                    <YO>22</YO>
+                  </UDim2>
+                  <UDim2 name="Position">
+                    <XS>0</XS>
+                    <XO>16</XO>
+                    <YS>0</YS>
+                    <YO>52</YO>
+                  </UDim2>
+                  <string name="Text">CHOOSE YOUR OPPONENT</string>
+                  <int name="TextSize">11</int>
+                  <Color3 name="TextColor3">
+                    <R>0.65</R>
+                    <G>0.68</G>
+                    <B>0.78</B>
+                  </Color3>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.05</R>
+                    <G>0.06</G>
+                    <B>0.09</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">1</float>
+                  <bool name="TextWrapped">false</bool>
+                  <bool name="TextScaled">false</bool>
+                  <int name="ZIndex">2</int>
+                  <int name="BorderSizePixel">0</int>
+                  <token name="Font">7</token>
+                </Properties>
+              </Item>
+              <Item class="TextButton" referent="RBX86">
+                <Properties>
+                  <string name="Name">OnlineButton</string>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.4</R>
+                    <G>0.27</G>
+                    <B>0.88</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">0</float>
+                  <bool name="Visible">true</bool>
+                  <int name="ZIndex">4</int>
+                  <int name="BorderSizePixel">0</int>
+                  <bool name="ClipsDescendants">false</bool>
+                  <UDim2 name="Size">
+                    <XS>1</XS>
+                    <XO>-32</XO>
+                    <YS>0</YS>
+                    <YO>48</YO>
+                  </UDim2>
+                  <UDim2 name="Position">
+                    <XS>0</XS>
+                    <XO>16</XO>
+                    <YS>0</YS>
+                    <YO>88</YO>
+                  </UDim2>
+                  <string name="Text">PLAY ONLINE</string>
+                  <int name="TextSize">17</int>
+                  <Color3 name="TextColor3">
+                    <R>1</R>
+                    <G>1</G>
+                    <B>1</B>
+                  </Color3>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.4</R>
+                    <G>0.27</G>
+                    <B>0.88</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">0</float>
+                  <bool name="TextWrapped">false</bool>
+                  <bool name="TextScaled">false</bool>
+                  <int name="ZIndex">4</int>
+                  <int name="BorderSizePixel">0</int>
+                  <token name="Font">7</token>
+                  <bool name="AutoButtonColor">true</bool>
+                  <bool name="Selectable">true</bool>
+                </Properties>
+              </Item>
+              <Item class="TextButton" referent="RBX87">
+                <Properties>
+                  <string name="Name">BotButton</string>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.15</R>
+                    <G>0.16</G>
+                    <B>0.23</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">0</float>
+                  <bool name="Visible">true</bool>
+                  <int name="ZIndex">4</int>
+                  <int name="BorderSizePixel">0</int>
+                  <bool name="ClipsDescendants">false</bool>
+                  <UDim2 name="Size">
+                    <XS>1</XS>
+                    <XO>-32</XO>
+                    <YS>0</YS>
+                    <YO>44</YO>
+                  </UDim2>
+                  <UDim2 name="Position">
+                    <XS>0</XS>
+                    <XO>16</XO>
+                    <YS>0</YS>
+                    <YO>146</YO>
+                  </UDim2>
+                  <string name="Text">PLAY VS BOT</string>
+                  <int name="TextSize">16</int>
+                  <Color3 name="TextColor3">
+                    <R>1</R>
+                    <G>1</G>
+                    <B>1</B>
+                  </Color3>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.15</R>
+                    <G>0.16</G>
+                    <B>0.23</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">0</float>
+                  <bool name="TextWrapped">false</bool>
+                  <bool name="TextScaled">false</bool>
+                  <int name="ZIndex">4</int>
+                  <int name="BorderSizePixel">0</int>
+                  <token name="Font">7</token>
+                  <bool name="AutoButtonColor">true</bool>
+                  <bool name="Selectable">true</bool>
+                </Properties>
+              </Item>
+              <Item class="TextLabel" referent="RBX88">
+                <Properties>
+                  <string name="Name">ModesLabel</string>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.05</R>
+                    <G>0.06</G>
+                    <B>0.09</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">1</float>
+                  <bool name="Visible">true</bool>
+                  <int name="ZIndex">3</int>
+                  <int name="BorderSizePixel">0</int>
+                  <bool name="ClipsDescendants">false</bool>
+                  <UDim2 name="Size">
+                    <XS>1</XS>
+                    <XO>-32</XO>
+                    <YS>0</YS>
+                    <YO>22</YO>
+                  </UDim2>
+                  <UDim2 name="Position">
+                    <XS>0</XS>
+                    <XO>16</XO>
+                    <YS>0</YS>
+                    <YO>210</YO>
+                  </UDim2>
+                  <string name="Text">TIME CONTROL</string>
+                  <int name="TextSize">11</int>
+                  <Color3 name="TextColor3">
+                    <R>0.65</R>
+                    <G>0.68</G>
+                    <B>0.78</B>
+                  </Color3>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.05</R>
+                    <G>0.06</G>
+                    <B>0.09</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">1</float>
+                  <bool name="TextWrapped">false</bool>
+                  <bool name="TextScaled">false</bool>
+                  <int name="ZIndex">2</int>
+                  <int name="BorderSizePixel">0</int>
+                  <token name="Font">7</token>
+                </Properties>
+              </Item>
+              <Item class="TextButton" referent="RBX89">
+                <Properties>
+                  <string name="Name">Mode_CLASSIC</string>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.13</R>
+                    <G>0.14</G>
+                    <B>0.2</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">0</float>
+                  <bool name="Visible">true</bool>
+                  <int name="ZIndex">4</int>
+                  <int name="BorderSizePixel">0</int>
+                  <bool name="ClipsDescendants">false</bool>
+                  <UDim2 name="Size">
+                    <XS>0</XS>
+                    <XO>54</XO>
+                    <YS>0</YS>
+                    <YO>38</YO>
+                  </UDim2>
+                  <UDim2 name="Position">
+                    <XS>0</XS>
+                    <XO>16</XO>
+                    <YS>0</YS>
+                    <YO>242</YO>
+                  </UDim2>
+                  <string name="Text">CLASSIC</string>
+                  <int name="TextSize">11</int>
+                  <Color3 name="TextColor3">
+                    <R>1</R>
+                    <G>1</G>
+                    <B>1</B>
+                  </Color3>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.13</R>
+                    <G>0.14</G>
+                    <B>0.2</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">0</float>
+                  <bool name="TextWrapped">false</bool>
+                  <bool name="TextScaled">false</bool>
+                  <int name="ZIndex">4</int>
+                  <int name="BorderSizePixel">0</int>
+                  <token name="Font">7</token>
+                  <bool name="AutoButtonColor">true</bool>
+                  <bool name="Selectable">true</bool>
+                </Properties>
+              </Item>
+              <Item class="TextButton" referent="RBX90">
+                <Properties>
+                  <string name="Name">Mode_RAPID</string>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.13</R>
+                    <G>0.14</G>
+                    <B>0.2</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">0</float>
+                  <bool name="Visible">true</bool>
+                  <int name="ZIndex">4</int>
+                  <int name="BorderSizePixel">0</int>
+                  <bool name="ClipsDescendants">false</bool>
+                  <UDim2 name="Size">
+                    <XS>0</XS>
+                    <XO>54</XO>
+                    <YS>0</YS>
+                    <YO>38</YO>
+                  </UDim2>
+                  <UDim2 name="Position">
+                    <XS>0</XS>
+                    <XO>74</XO>
+                    <YS>0</YS>
+                    <YO>242</YO>
+                  </UDim2>
+                  <string name="Text">RAPID</string>
+                  <int name="TextSize">11</int>
+                  <Color3 name="TextColor3">
+                    <R>1</R>
+                    <G>1</G>
+                    <B>1</B>
+                  </Color3>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.13</R>
+                    <G>0.14</G>
+                    <B>0.2</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">0</float>
+                  <bool name="TextWrapped">false</bool>
+                  <bool name="TextScaled">false</bool>
+                  <int name="ZIndex">4</int>
+                  <int name="BorderSizePixel">0</int>
+                  <token name="Font">7</token>
+                  <bool name="AutoButtonColor">true</bool>
+                  <bool name="Selectable">true</bool>
+                </Properties>
+              </Item>
+              <Item class="TextButton" referent="RBX91">
+                <Properties>
+                  <string name="Name">Mode_BLITZ</string>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.13</R>
+                    <G>0.14</G>
+                    <B>0.2</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">0</float>
+                  <bool name="Visible">true</bool>
+                  <int name="ZIndex">4</int>
+                  <int name="BorderSizePixel">0</int>
+                  <bool name="ClipsDescendants">false</bool>
+                  <UDim2 name="Size">
+                    <XS>0</XS>
+                    <XO>54</XO>
+                    <YS>0</YS>
+                    <YO>38</YO>
+                  </UDim2>
+                  <UDim2 name="Position">
+                    <XS>0</XS>
+                    <XO>132</XO>
+                    <YS>0</YS>
+                    <YO>242</YO>
+                  </UDim2>
+                  <string name="Text">BLITZ</string>
+                  <int name="TextSize">11</int>
+                  <Color3 name="TextColor3">
+                    <R>1</R>
+                    <G>1</G>
+                    <B>1</B>
+                  </Color3>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.13</R>
+                    <G>0.14</G>
+                    <B>0.2</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">0</float>
+                  <bool name="TextWrapped">false</bool>
+                  <bool name="TextScaled">false</bool>
+                  <int name="ZIndex">4</int>
+                  <int name="BorderSizePixel">0</int>
+                  <token name="Font">7</token>
+                  <bool name="AutoButtonColor">true</bool>
+                  <bool name="Selectable">true</bool>
+                </Properties>
+              </Item>
+              <Item class="TextButton" referent="RBX92">
+                <Properties>
+                  <string name="Name">Mode_BULLET</string>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.13</R>
+                    <G>0.14</G>
+                    <B>0.2</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">0</float>
+                  <bool name="Visible">true</bool>
+                  <int name="ZIndex">4</int>
+                  <int name="BorderSizePixel">0</int>
+                  <bool name="ClipsDescendants">false</bool>
+                  <UDim2 name="Size">
+                    <XS>0</XS>
+                    <XO>54</XO>
+                    <YS>0</YS>
+                    <YO>38</YO>
+                  </UDim2>
+                  <UDim2 name="Position">
+                    <XS>0</XS>
+                    <XO>190</XO>
+                    <YS>0</YS>
+                    <YO>242</YO>
+                  </UDim2>
+                  <string name="Text">BULLET</string>
+                  <int name="TextSize">11</int>
+                  <Color3 name="TextColor3">
+                    <R>1</R>
+                    <G>1</G>
+                    <B>1</B>
+                  </Color3>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.13</R>
+                    <G>0.14</G>
+                    <B>0.2</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">0</float>
+                  <bool name="TextWrapped">false</bool>
+                  <bool name="TextScaled">false</bool>
+                  <int name="ZIndex">4</int>
+                  <int name="BorderSizePixel">0</int>
+                  <token name="Font">7</token>
+                  <bool name="AutoButtonColor">true</bool>
+                  <bool name="Selectable">true</bool>
+                </Properties>
+              </Item>
+              <Item class="TextLabel" referent="RBX93">
+                <Properties>
+                  <string name="Name">StatusLabel</string>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.05</R>
+                    <G>0.06</G>
+                    <B>0.09</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">1</float>
+                  <bool name="Visible">true</bool>
+                  <int name="ZIndex">3</int>
+                  <int name="BorderSizePixel">0</int>
+                  <bool name="ClipsDescendants">false</bool>
+                  <UDim2 name="Size">
+                    <XS>1</XS>
+                    <XO>-32</XO>
+                    <YS>0</YS>
+                    <YO>28</YO>
+                  </UDim2>
+                  <UDim2 name="Position">
+                    <XS>0</XS>
+                    <XO>16</XO>
+                    <YS>0</YS>
+                    <YO>300</YO>
+                  </UDim2>
+                  <string name="Text">READY TO PLAY</string>
+                  <int name="TextSize">12</int>
+                  <Color3 name="TextColor3">
+                    <R>0.57</R>
+                    <G>0.87</G>
+                    <B>0.72</B>
+                  </Color3>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.05</R>
+                    <G>0.06</G>
+                    <B>0.09</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">1</float>
+                  <bool name="TextWrapped">false</bool>
+                  <bool name="TextScaled">false</bool>
+                  <int name="ZIndex">2</int>
+                  <int name="BorderSizePixel">0</int>
+                  <token name="Font">7</token>
+                </Properties>
+              </Item>
+              <Item class="TextLabel" referent="RBX94">
+                <Properties>
+                  <string name="Name">TipLabel</string>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.05</R>
+                    <G>0.06</G>
+                    <B>0.09</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">1</float>
+                  <bool name="Visible">true</bool>
+                  <int name="ZIndex">3</int>
+                  <int name="BorderSizePixel">0</int>
+                  <bool name="ClipsDescendants">false</bool>
+                  <UDim2 name="Size">
+                    <XS>1</XS>
+                    <XO>-32</XO>
+                    <YS>0</YS>
+                    <YO>74</YO>
+                  </UDim2>
+                  <UDim2 name="Position">
+                    <XS>0</XS>
+                    <XO>16</XO>
+                    <YS>0</YS>
+                    <YO>340</YO>
+                  </UDim2>
+                  <string name="Text">Every move matters. Take your time, read the board, and outthink your rival.</string>
+                  <int name="TextSize">13</int>
+                  <Color3 name="TextColor3">
+                    <R>0.72</R>
+                    <G>0.74</G>
+                    <B>0.82</B>
+                  </Color3>
+                  <Color3 name="BackgroundColor3">
+                    <R>0.05</R>
+                    <G>0.06</G>
+                    <B>0.09</B>
+                  </Color3>
+                  <float name="BackgroundTransparency">1</float>
+                  <bool name="TextWrapped">false</bool>
+                  <bool name="TextScaled">false</bool>
+                  <int name="ZIndex">2</int>
+                  <int name="BorderSizePixel">0</int>
+                  <token name="Font">0</token>
+                </Properties>
+              </Item>
+            </Item>
+          </Item>
+          <Item class="Frame" referent="RBX95">
+            <Properties>
+              <string name="Name">MobileNav</string>
+              <Color3 name="BackgroundColor3">
+                <R>0.055</R>
+                <G>0.065</G>
+                <B>0.095</B>
+              </Color3>
+              <float name="BackgroundTransparency">0</float>
+              <bool name="Visible">false</bool>
+              <int name="ZIndex">5</int>
+              <int name="BorderSizePixel">0</int>
+              <bool name="ClipsDescendants">false</bool>
+              <UDim2 name="Size">
+                <XS>1</XS>
+                <XO>0</XO>
+                <YS>0</YS>
+                <YO>58</YO>
+              </UDim2>
+              <UDim2 name="Position">
+                <XS>0</XS>
+                <XO>0</XO>
+                <YS>1</YS>
+                <YO>-58</YO>
+              </UDim2>
+            </Properties>
+            <Item class="TextButton" referent="RBX96">
+              <Properties>
+                <string name="Name">MobileNav1</string>
+                <Color3 name="BackgroundColor3">
+                  <R>0.12</R>
+                  <G>0.13</G>
+                  <B>0.19</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="Visible">true</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <bool name="ClipsDescendants">false</bool>
+                <UDim2 name="Size">
+                  <XS>0.25</XS>
+                  <XO>0</XO>
+                  <YS>0</YS>
+                  <YO>44</YO>
+                </UDim2>
+                <UDim2 name="Position">
+                  <XS>0.0</XS>
+                  <XO>0</XO>
+                  <YS>0</YS>
+                  <YO>7</YO>
+                </UDim2>
+                <string name="Text">HOME</string>
+                <int name="TextSize">11</int>
+                <Color3 name="TextColor3">
+                  <R>1</R>
+                  <G>1</G>
+                  <B>1</B>
+                </Color3>
+                <Color3 name="BackgroundColor3">
+                  <R>0.12</R>
+                  <G>0.13</G>
+                  <B>0.19</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="TextWrapped">false</bool>
+                <bool name="TextScaled">false</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <token name="Font">7</token>
+                <bool name="AutoButtonColor">true</bool>
+                <bool name="Selectable">true</bool>
+              </Properties>
+            </Item>
+            <Item class="TextButton" referent="RBX97">
+              <Properties>
+                <string name="Name">MobileNav2</string>
+                <Color3 name="BackgroundColor3">
+                  <R>0.12</R>
+                  <G>0.13</G>
+                  <B>0.19</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="Visible">true</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <bool name="ClipsDescendants">false</bool>
+                <UDim2 name="Size">
+                  <XS>0.25</XS>
+                  <XO>0</XO>
+                  <YS>0</YS>
+                  <YO>44</YO>
+                </UDim2>
+                <UDim2 name="Position">
+                  <XS>0.25</XS>
+                  <XO>0</XO>
+                  <YS>0</YS>
+                  <YO>7</YO>
+                </UDim2>
+                <string name="Text">PLAY</string>
+                <int name="TextSize">11</int>
+                <Color3 name="TextColor3">
+                  <R>1</R>
+                  <G>1</G>
+                  <B>1</B>
+                </Color3>
+                <Color3 name="BackgroundColor3">
+                  <R>0.12</R>
+                  <G>0.13</G>
+                  <B>0.19</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="TextWrapped">false</bool>
+                <bool name="TextScaled">false</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <token name="Font">7</token>
+                <bool name="AutoButtonColor">true</bool>
+                <bool name="Selectable">true</bool>
+              </Properties>
+            </Item>
+            <Item class="TextButton" referent="RBX98">
+              <Properties>
+                <string name="Name">MobileNav3</string>
+                <Color3 name="BackgroundColor3">
+                  <R>0.12</R>
+                  <G>0.13</G>
+                  <B>0.19</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="Visible">true</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <bool name="ClipsDescendants">false</bool>
+                <UDim2 name="Size">
+                  <XS>0.25</XS>
+                  <XO>0</XO>
+                  <YS>0</YS>
+                  <YO>44</YO>
+                </UDim2>
+                <UDim2 name="Position">
+                  <XS>0.5</XS>
+                  <XO>0</XO>
+                  <YS>0</YS>
+                  <YO>7</YO>
+                </UDim2>
+                <string name="Text">PUZZLES</string>
+                <int name="TextSize">11</int>
+                <Color3 name="TextColor3">
+                  <R>1</R>
+                  <G>1</G>
+                  <B>1</B>
+                </Color3>
+                <Color3 name="BackgroundColor3">
+                  <R>0.12</R>
+                  <G>0.13</G>
+                  <B>0.19</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="TextWrapped">false</bool>
+                <bool name="TextScaled">false</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <token name="Font">7</token>
+                <bool name="AutoButtonColor">true</bool>
+                <bool name="Selectable">true</bool>
+              </Properties>
+            </Item>
+            <Item class="TextButton" referent="RBX99">
+              <Properties>
+                <string name="Name">MobileNav4</string>
+                <Color3 name="BackgroundColor3">
+                  <R>0.12</R>
+                  <G>0.13</G>
+                  <B>0.19</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="Visible">true</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <bool name="ClipsDescendants">false</bool>
+                <UDim2 name="Size">
+                  <XS>0.25</XS>
+                  <XO>0</XO>
+                  <YS>0</YS>
+                  <YO>44</YO>
+                </UDim2>
+                <UDim2 name="Position">
+                  <XS>0.75</XS>
+                  <XO>0</XO>
+                  <YS>0</YS>
+                  <YO>7</YO>
+                </UDim2>
+                <string name="Text">PROFILE</string>
+                <int name="TextSize">11</int>
+                <Color3 name="TextColor3">
+                  <R>1</R>
+                  <G>1</G>
+                  <B>1</B>
+                </Color3>
+                <Color3 name="BackgroundColor3">
+                  <R>0.12</R>
+                  <G>0.13</G>
+                  <B>0.19</B>
+                </Color3>
+                <float name="BackgroundTransparency">0</float>
+                <bool name="TextWrapped">false</bool>
+                <bool name="TextScaled">false</bool>
+                <int name="ZIndex">4</int>
+                <int name="BorderSizePixel">0</int>
+                <token name="Font">7</token>
+                <bool name="AutoButtonColor">true</bool>
+                <bool name="Selectable">true</bool>
+              </Properties>
+            </Item>
+          </Item>
+        </Item>
+        <Item class="LocalScript" referent="RBX100">
+          <Properties>
+            <string name="Name">ResponsiveLayout</string>
+            <ProtectedString name="Source">local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local gui = script.Parent
+local root = gui:WaitForChild("Root")
+local header = root:WaitForChild("Header")
+local sidebar = root:WaitForChild("Sidebar")
+local content = root:WaitForChild("Content")
+local boardPanel = content:WaitForChild("BoardPanel")
+local board = boardPanel:WaitForChild("ChessBoard")
+local right = content:WaitForChild("RightPanel")
+local mobileNav = root:WaitForChild("MobileNav")
+local camera = workspace.CurrentCamera
+
+local function updateLayout()
+    if not camera then camera = workspace.CurrentCamera end
+    if not camera then return end
+    local v = camera.ViewportSize
+    local portrait = v.X &lt; v.Y or v.X &lt; 760
+    if portrait then
+        sidebar.Visible = false
+        mobileNav.Visible = true
+        content.Position = UDim2.fromOffset(0, 72)
+        content.Size = UDim2.new(1, 0, 1, -130)
+        local boardSize = math.max(250, math.min(v.X - 20, v.Y * 0.49))
+        boardPanel.Size = UDim2.fromOffset(boardSize, boardSize)
+        boardPanel.Position = UDim2.new(0.5, -boardSize/2, 0, 12)
+        right.Size = UDim2.new(1, -24, 0, 220)
+        right.Position = UDim2.new(0, 12, 0, boardSize + 30)
+        right.Visible = true
+        for _, child in ipairs(right:GetChildren()) do
+            if child:IsA("GuiObject") then
+                if child.Name == "OnlineButton" then child.Position = UDim2.fromOffset(12, 48); child.Size = UDim2.new(0.5, -18, 0, 42)
+                elseif child.Name == "BotButton" then child.Position = UDim2.new(0.5, 6, 0, 48); child.Size = UDim2.new(0.5, -18, 0, 42)
+                elseif child.Name == "ModesLabel" then child.Position = UDim2.fromOffset(12, 102)
+                elseif child.Name:match("^Mode_") then
+                    local n = ({CLASSIC=0,RAPID=1,BLITZ=2,BULLET=3})[child.Name:gsub("Mode_","")] or 0
+                    child.Position = UDim2.new(0, 12+n* (math.max(58,(v.X-56)/4)), 0, 130)
+                    child.Size = UDim2.new(0, math.max(52,(v.X-80)/4), 0, 36)
+                elseif child.Name == "MatchTitle" then child.Visible = false
+                elseif child.Name == "OpponentLabel" then child.Visible = false
+                elseif child.Name == "StatusLabel" then child.Position = UDim2.fromOffset(12, 176)
+                elseif child.Name == "TipLabel" then child.Visible = false end
+            end
+        end
+    else
+        sidebar.Visible = true
+        mobileNav.Visible = false
+        content.Position = UDim2.fromOffset(196, 76)
+        content.Size = UDim2.new(1, -208, 1, -78)
+        local availableW = v.X - 196 - 208 - 300
+        local boardSize = math.max(320, math.min(availableW, v.Y - 150, 560))
+        boardPanel.Size = UDim2.fromOffset(boardSize, boardSize)
+        boardPanel.Position = UDim2.new(0, 0, 0.5, -boardSize/2)
+        right.Size = UDim2.new(0, 264, 1, 0)
+        right.Position = UDim2.new(1, -264, 0, 0)
+        right.Visible = true
+        for _, child in ipairs(right:GetChildren()) do
+            if child:IsA("GuiObject") then
+                child.Visible = true
+                if child.Name == "OnlineButton" then child.Position = UDim2.fromOffset(16,88); child.Size = UDim2.new(1,-32,0,48)
+                elseif child.Name == "BotButton" then child.Position = UDim2.fromOffset(16,146); child.Size = UDim2.new(1,-32,0,44)
+                elseif child.Name == "ModesLabel" then child.Position = UDim2.fromOffset(16,210)
+                elseif child.Name:match("^Mode_") then
+                    local n = ({CLASSIC=0,RAPID=1,BLITZ=2,BULLET=3})[child.Name:gsub("Mode_","")] or 0
+                    child.Position = UDim2.fromOffset(16+n*58,242); child.Size = UDim2.fromOffset(54,38)
+                elseif child.Name == "StatusLabel" then child.Position = UDim2.fromOffset(16,300)
+                elseif child.Name == "TipLabel" then child.Position = UDim2.fromOffset(16,340) end
+            end
+        end
+    end
+end
+
+updateLayout()
+if camera then camera:GetPropertyChangedSignal("ViewportSize"):Connect(updateLayout) end
+workspace:GetPropertyChangedSignal("CurrentCamera"):Connect(function()
+    camera = workspace.CurrentCamera
+    if camera then camera:GetPropertyChangedSignal("ViewportSize"):Connect(updateLayout) end
+    updateLayout()
+end)</ProtectedString>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>
